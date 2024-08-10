@@ -7,7 +7,7 @@ import './OurLatestDeals.css';
 
 const OurLatestdealsrow = () => {
     return (
-        <Container>
+        <div className='m-4'>
           <h2 className='textHeading text-center mb-4' style={{ color: '#031A6B', textAlign: 'center', marginBottom: '20px' }}>
           Our Latest <span style={{ color: '#FF9402'}}>Deals</span>
         </h2>
@@ -18,7 +18,7 @@ const OurLatestdealsrow = () => {
               </div>
             ))}
           </Row>
-        </Container>
+        </div >
       );
 }
 

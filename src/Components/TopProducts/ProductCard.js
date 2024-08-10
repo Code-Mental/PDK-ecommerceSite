@@ -4,8 +4,8 @@ import './TopProducts.css'
 
 const ProductCard = ({ product }) => {
   return (
-    <Card  style={{ width: '10rem'}} className="product-card">
-      <Card.Img variant="top" src={product.image} className="product-image-topproducts" />
+    <Card  style={{ width: '10.5rem '}} className="product-card">
+      <Card.Img variant="top" src={product.image} className="product-image-topproducts p-3" />
       <Card.Body>
         <Card.Text>{product.description}</Card.Text>
         <p style={{ color: '#FF9402' }}>{product.price}</p>

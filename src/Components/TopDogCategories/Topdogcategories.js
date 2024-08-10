@@ -7,7 +7,7 @@ import './tdcategories.css';
  
 const TopdogsCategories = () => {
   return (
-    <Container className='mt-5'>
+    <div className='m-4 mt-5'>
       <h2 className='textHeading text-center mb-4' style={{ color: '#031A6B' }}>
       Top <span style={{ color: '#FF9402'}}>Dogs</span>Categories
     </h2>
@@ -19,7 +19,7 @@ const TopdogsCategories = () => {
       
         ))}
       </Row>
-    </Container>
+    </div>
   );
 };
 

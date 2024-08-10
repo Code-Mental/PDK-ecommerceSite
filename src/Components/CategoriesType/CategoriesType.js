@@ -19,11 +19,11 @@ const CategoriesType = () => {
     ];
 
     return (
-        <Container>
+        < >
             <h2 className="textHeading text-center mt-5">
                 Categories by <span style={{ color: '#FF9402' }}>Pets</span> Type
             </h2>
-            <Row className='my-5'>
+            <Row className='m-4 '>
                 {/* Map over the imagePaths array to generate image elements */}
                 {imagePaths.map((imagePath, index) => (
                     <Col key={index} md={2} sm={4} xs={6}>
@@ -35,7 +35,7 @@ const CategoriesType = () => {
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </>
     );
 };
 

@@ -5,7 +5,7 @@ import './OurLatestDeals.css';
 const ProductCard = ({ product }) => {
   return (
     <Card   className="old-product-card">
-      <Card.Img variant="top" src={product.image} className="product-image" />
+      <Card.Img variant="top" src={product.image} className="product-image p-3" />
       <Card.Body className='old-card-body'>
         <Card.Text>{product.description}</Card.Text>
         <p style={{ color: '#FF9402' }}>{product.price}</p>

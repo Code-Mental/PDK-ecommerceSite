@@ -58,7 +58,7 @@ const CardShuffle = () => {
     };
 
     return (
-        <Container className="cu-container">
+        <div className="cu-container m-4 mt-5">
             <Row className="mt-4">
                 {cards.slice(0, visibleCards).map(card => (
                     <Col key={card.id} xs={12} md={6} lg={4}>
@@ -75,7 +75,7 @@ const CardShuffle = () => {
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </div>
     );
 };
 

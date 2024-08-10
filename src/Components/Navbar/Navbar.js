@@ -100,13 +100,13 @@ const CustomNavbar = () => {
             <img src={footerlogo} alt="Pet Daily Kit" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="mainNavbar" />
-          <Navbar.Collapse id="mainNavbar">
+          <Navbar.Collapse id="mainNavbar" className='mr-5'>
             <Nav className="ml-auto mr-auto">
-              <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
-              <CustomDropdown title="Dogs" items={dropdownItemsDogs} />
-              <CustomDropdown title="Cats" items={dropdownItemsCats} />
-              <CustomDropdown title="Fish" items={dropdownItemsFish} />
-              <CustomDropdown title="Small Pets" items={dropdownItemsSmallPets} />
+              <Nav.Link as={Link} to="/shop" className="mr-3">Shop</Nav.Link>
+              <CustomDropdown title="Dogs" items={dropdownItemsDogs}  />
+              <CustomDropdown title="Cats" items={dropdownItemsCats}  />
+              <CustomDropdown title="Fish" items={dropdownItemsFish}  />
+              <CustomDropdown title="Small Pets" items={dropdownItemsSmallPets}  />
               <CustomDropdown title="Reptiles" items={dropdownItemsReptiles} />
             </Nav>
             <Nav>

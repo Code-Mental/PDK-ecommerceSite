@@ -58,7 +58,7 @@ const CustomCarousel = () => {
               best experience for pets and peace of mind for pet owners. 
               Pet Daily Kit is committed to delivering top-quality pet supplies in every aspect of their offerings.
             </p>
-            <h2 className="textHeading">Top Products</h2>
+            <h2 className="textHeading mb-4">Top Products</h2>
           </Col>
         </Row>
       </Container>
