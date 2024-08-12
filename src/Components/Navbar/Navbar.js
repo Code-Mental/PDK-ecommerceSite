@@ -138,10 +138,8 @@ const CustomNavbar = () => {
               <span className="badge badge-pill badge-mob ">{cart.length}</span>
             </Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
 
-      <Offcanvas show={show} onHide={handleClose} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="start">
+          <Offcanvas show={show} onHide={handleClose} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="start">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title id="offcanvasNavbarLabel">
             <img src={footerlogo} alt="Pet Daily Kit" className="sidebar-logo" />
@@ -206,6 +204,10 @@ const CustomNavbar = () => {
     </div>
   </Offcanvas.Body>
 </Offcanvas>
+        </Container>
+      </Navbar>
+
+      
 
 
 
