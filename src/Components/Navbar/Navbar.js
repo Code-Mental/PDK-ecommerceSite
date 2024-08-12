@@ -125,7 +125,7 @@ const CustomNavbar = () => {
       <Navbar expand={false} className="navbar-sm nav-bgr d-lg-none">
         <Container fluid className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
-            <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={handleShow} />
+            <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={handleShow}  className='togglemobilenavbar'/>
             <Navbar.Brand as={Link} to="/" className="ml-2">
               <img src={footerlogo} alt="Pet Daily Kit" />
             </Navbar.Brand>
